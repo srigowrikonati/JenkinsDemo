@@ -1,7 +1,7 @@
 pipeline{
         agent any 
                  stages('one'){
-                        step{
+                        steps{
                              echo 'Hi,this is gowri from  hyderabad'
                             }
                         }
