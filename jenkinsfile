@@ -34,6 +34,12 @@ pipeline{
                                                                                   echo 'running the integration test..'
                                                                                  }
                                                                 }
+											stage('Sample Parallel 3'){
+													  steps{
+														echo "Sample Parallel 3"
+														}
+
+													}                                                                
 }
 }
 }
